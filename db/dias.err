@@ -10,3 +10,35 @@
 2022-12-10T20:56:45.479240Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.30).
 2022-12-10T20:56:49.788687Z 0 [System] [MY-010910] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.
 2022-12-10T20:56:50.234385Z mysqld_safe mysqld from pid file ./db/dias.pid ended
+2022-12-15T21:20:54.207656Z mysqld_safe Logging to './db/dias.err'.
+2022-12-15T21:20:54.289938Z mysqld_safe Starting mysqld daemon with databases from ./db
+2022-12-15T21:20:56.693734Z 0 [System] [MY-010116] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld (mysqld 8.0.30) starting as process 430229
+2022-12-15T21:20:57.259204Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-12-15T21:20:59.641472Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-12-15T21:21:03.891030Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-12-15T21:21:03.891143Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-12-15T21:21:03.965877Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+2022-12-15T21:21:03.965935Z 0 [System] [MY-010931] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld: ready for connections. Version: '8.0.30'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-12-16T18:00:50.233733Z mysqld_safe Logging to './db/dias.err'.
+2022-12-16T18:00:50.430457Z mysqld_safe Starting mysqld daemon with databases from ./db
+2022-12-16T18:00:52.470426Z 0 [System] [MY-010116] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld (mysqld 8.0.30) starting as process 14235
+2022-12-16T18:00:53.239010Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-12-16T18:00:55.963907Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-12-16T18:00:59.071919Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2022-12-16T18:00:59.090370Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2022-12-16T18:00:59.713860Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-12-16T18:00:59.713994Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-12-16T18:00:59.809835Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+2022-12-16T18:00:59.809889Z 0 [System] [MY-010931] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld: ready for connections. Version: '8.0.30'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-12-19T18:57:35.772940Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.30).
+2022-12-19T18:57:40.174013Z 0 [System] [MY-010910] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.
+2022-12-19T18:57:40.568365Z mysqld_safe mysqld from pid file ./db/dias.pid ended
+2022-12-19T21:16:45.243045Z mysqld_safe Logging to './db/dias.err'.
+2022-12-19T21:16:45.477113Z mysqld_safe Starting mysqld daemon with databases from ./db
+2022-12-19T21:16:47.710810Z 0 [System] [MY-010116] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld (mysqld 8.0.30) starting as process 9060
+2022-12-19T21:16:48.294053Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-12-19T21:16:50.620773Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-12-19T21:16:55.384241Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-12-19T21:16:55.384305Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-12-19T21:16:55.432389Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+2022-12-19T21:16:55.432480Z 0 [System] [MY-010931] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld: ready for connections. Version: '8.0.30'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server - GPL.

@@ -41,7 +41,15 @@ public class DoctorEntity {
     public DoctorEntity() {
     }
 
-    public DoctorEntity(Long id, String username, int activeStatus, String fullName, String email, String gender, DoctorSpecialty doctorSpecialty, String doctorLicense, Address address) {
+    public DoctorEntity(Long id,
+                        String username,
+                        int activeStatus,
+                        String fullName,
+                        String email,
+                        String gender,
+                        DoctorSpecialty doctorSpecialty,
+                        String doctorLicense,
+                        Address address) {
         this.id = id;
         this.username = username;
         this.activeStatus = activeStatus;
@@ -87,6 +95,27 @@ public class DoctorEntity {
 
     public Address getAddress() {
         return address;
+    }
+
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setActiveStatus(int activeStatus) {
+        this.activeStatus = activeStatus;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     @Override
