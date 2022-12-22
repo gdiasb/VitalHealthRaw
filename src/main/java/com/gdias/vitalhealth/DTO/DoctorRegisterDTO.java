@@ -11,7 +11,6 @@ public record DoctorRegisterDTO(
         @NotBlank
         @Size(min = 4)
         String username,
-        int activeStatus,
         @NotBlank
         String fullName,
         @NotBlank

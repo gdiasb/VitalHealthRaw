@@ -27,13 +27,15 @@ public class DoctorController {
 
     //    @RequestMapping(value = "v1/doctors", method = RequestMethod.GET)
     @GetMapping
-    public Page<DoctorListDTO> listDoctors(@PageableDefault(size = 15) Pageable pageable) {
+    public ResponseEntity<Page<DoctorListDTO>> listDoctors(@PageableDefault(size = 15) Pageable pageable) {
         return service.getDoctorList(pageable);
     }
 
-    @GetMapping("v1/doctors/{id}")
-    public void getDoctor(@PathVariable Long id) {
-        service.getDoctor(id);
+
+    //    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    @GetMapping("/{id}")
+    public ResponseEntity<DoctorListDTO> getDoctor(@PathVariable Long id) {
+        return service.getDoctor(id);
     }
 
 
@@ -46,10 +48,16 @@ public class DoctorController {
 
 
     //    @RequestMapping(value = "v1/doctors/{id}", method = RequestMethod.PUT)
-    @PutMapping("v1/doctors/{id}")
+    @PutMapping("/{id}")
     public void updateDoctor(@PathVariable Long id,
                              @RequestBody DoctorUpdateDTO doctorUpdateDTO) {
         service.updateDoctor(id, doctorUpdateDTO);
+    }
+
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity inactiveEntity(@PathVariable Long id) {
+        return service.inactiveEntity(id);
     }
 
 

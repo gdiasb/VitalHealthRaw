@@ -1,11 +1,11 @@
 package com.gdias.vitalhealth.DTO;
 
 import com.gdias.vitalhealth.common.DoctorSpecialty;
-import com.gdias.vitalhealth.entities.DoctorEntity;
+import com.gdias.vitalhealth.domain.DoctorEntity;
 
 public record DoctorListDTO(
         String username,
-        int activeStatus,
+        boolean activeStatus,
         String fullName,
         DoctorSpecialty doctorSpecialty,
         String doctorLicense
