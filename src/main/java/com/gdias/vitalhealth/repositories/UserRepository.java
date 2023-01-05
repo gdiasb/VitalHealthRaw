@@ -6,5 +6,5 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 // Classe responsável pelo processo de autenticação
 public interface UserRepository extends JpaRepository<UserEntity, Long> {
-    UserDetails findByUsername(String username);
+    UserDetails findByUserLogin(String userLogin);
 }
