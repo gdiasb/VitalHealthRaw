@@ -1,0 +1,15 @@
+2023-01-03T21:10:55.177385Z mysqld_safe Logging to './db/.err'.
+2023-01-03T21:10:55.229799Z mysqld_safe Starting mysqld daemon with databases from ./db
+/home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld: error while loading shared libraries: libnuma.so.1: cannot open shared object file: No such file or directory
+2023-01-03T21:10:55.301640Z mysqld_safe mysqld from pid file ./db/.pid ended
+2023-01-03T21:15:34.695411Z mysqld_safe Logging to './db/.err'.
+2023-01-03T21:15:34.735908Z mysqld_safe Starting mysqld daemon with databases from ./db
+2023-01-03T21:15:34.955981Z 0 [System] [MY-010116] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld (mysqld 8.0.30) starting as process 73757
+2023-01-03T21:15:34.963612Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-03T21:15:37.195744Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-03T21:15:39.760806Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-01-03T21:15:39.774554Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-01-03T21:15:40.381820Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-01-03T21:15:40.381898Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-01-03T21:15:40.416755Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+2023-01-03T21:15:40.416803Z 0 [System] [MY-010931] [Server] /home/dias/.asdf/installs/mysql/8.0.30/bin/mysqld: ready for connections. Version: '8.0.30'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server - GPL.
